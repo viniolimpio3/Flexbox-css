@@ -7,21 +7,107 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <a href="#"><img src="img/logo.png" alt="Hotel Paraíso"></a>
+        <header>
+            <a href=""><img class="logo" src="img/logo.png" alt="Hotel Paraíso"></a>
 
-        <nav>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Sobre</a>
-            </li>
-            <li>
-                <a href="#">Reservas</a>
-            </li>
-            <li>
-                <a href="#"> Contatos</a>
-            </li>
-        </nav>
+            <nav>
+                <li>
+                    <a href="#hero">Home</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#ch">Características</a>
+                </li>
+                <li>
+                    <a href="#newsl"> Newsletter</a>
+                </li>
+            </nav>
+        </header>
+        
+        <section id="hero" class="hero">
+            <h1>Conheça um Paraíso chamado Itacaré</h1>
+            <h3>"Aconchego, conforto, simpatia e alto astral"</h3>
+            <button class="btn" href="#sobre">
+                Saiba mais
+            </button>
+        </section>
+        <section id="sobre" class="sobre">
+            <h3>Conheça o Hotel Paraíso</h3>
+            <p>Feche os olhos e imagine o paraíso. Um lugar no meio da Mata Atlântica e banhado pelo mar, onde você encontra paz, tranquilidade, conforto e comodidade</p>
+            <hr>
+            <ul class="grid">
+                <li class="sm" id="1" style="background-image: url('img/itacare-01.jpg');">
+                    <div id="txt1" style="display: none;">
+                        <h3>Local A</h3>
+                        <p>Descrição Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>    
+                </li>
+                <li class="lg" id="2" style="background-image: url('img/itacare-02.jpg');">
+                    <div id="txt2" >
+                        <h3>Local B</h3>
+                        <p>Descrição Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div> 
+                </li>
+                <li class="lg" id="3" style="background-image: url('img/itacare-03.jpg');">
+                    <div id="txt3" >
+                        <h3>Local C</h3>
+                        <p>Descrição Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </li>
+                <li class="sm" id="4" style="background-image: url('img/itacare-04.jpg');">
+                    <div id="txt4" style="display: none;">
+                        <h3>Local D</h3>
+                        <p>Descrição Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="ch" class="ch">
+            <h3>Único hotel pé na Areia de Itacaré</h3>
+            <p>Implantado em uma área completamente arborizada, o Hotel Paraíso é o único hotel Pé na Areia de Itacaré. Aqui o Mar será o seu companheiro e você terá as belezas da natureza como praias</p>
+            <hr>
+            <ul class="grid">
+                <li>
+                    <span class="fa fa-location-arrow"></span>
+                    <h4>Localização</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore enim soluta aliquid non officia expedita consequuntur sapiente ipsam, eos doloremque.</p>
+                </li>
+                <li>
+                    <span class="fa fa-gift"></span>
+                    <h4>Pacotes e ofertas</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, similique suscipit?</p>
+                </li>
+                <li>
+                    <span class="fa fa-Home"></span>
+                    <h4>Acomodações</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, eveniet?</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="news" id="newsl">
+            <h3>Newsletter</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique exercitationem eveniet veniam earum vitae quibusdam accusantium sint?</p>
+            <hr>
+            
+            <form>
+                <input id="news" type="text" placeholder="Email">
+                <button>Cadastrar</button>
+            </form>
+        </section>
+
+        <footer>
+            <ul>
+                <li> <a href="#"> <span class="fa fa-facebook" ></span> </a></li>
+                <li> <a href="#"> <span class="fa fa-instagram" ></span> </a></li>
+                <li> <a href="#"> <span class="fa fa-twitter" ></span> </a></li>
+            </ul>
+            <p>&copy;2020. Feito por Vinícius Olímpio <a href="https://github.com/viniolimpio3"><span class="fa fa-github"></span></a></p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
